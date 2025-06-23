@@ -1,0 +1,45 @@
+step 1: 
+
+
+install ms sql server 2022  - from shared location
+
+\\pun-iet\Req Soft\Basic soft\sql server sw
+
+install sqlserver express edition 2022 and after that 
+install ssms setup from same path
+
+
+step 2:   Go to Visual Studio Tools ->Options- Database Tools -> DataConections
+
+-> copy Sql Server instance name from right side window
+
+
+
+for e.g this could like below
+(LocalDB)\MSSQLLocalDB
+
+
+step 3:
+
+after installtion open SSMS  - Sql Server Management Studio
+
+open Sql Server Management Studio
+
+and enter server name   and click on Connect
+
+
+Step 4: if connection is getting succesufully connect  go to step 5 and create your database 
+ 
+create database under Databases folder and remember your database name
+
+step 5:
+
+Go to Visual Studio
+  
+Open View-> Server Explorer  -> Data Connections (Right click)- > Add Conection  -> MS Sql Server
+
+Add Connection window -
+
+and enter same server name and select your database that you created in step 4
+
+and click on Test Connection 
